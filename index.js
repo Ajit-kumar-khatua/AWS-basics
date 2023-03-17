@@ -3,7 +3,7 @@ const express=require("express")
 const app=express()
 
 app.get("/",(req,res)=>{
-    res.send("Welcome to Landing Page from server")
+    res.send("Welcome to Landing Page from server 1")
 })
 
 app.get("/home",(req,res)=>{
